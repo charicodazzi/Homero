@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1500px) {
+  #homer1 {
+    visibility: visible;
+  }
+  #homer2 {
+    visibility: hidden;
+  }
+  #homer3 {
+    visibility: hidden;
+  }
+  #homer4 {
+    visibility: hidden;
+  }
+  #homer5 {
+    visibility: hidden;
+  }
+  #homer6 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1300px) {
+  #homer1 {
+    visibility: hidden;
+  }
+  #homer2 {
+    visibility: visible;
+
+    float: left;
+  }
+  #homer3 {
+    visibility: hidden;
+  }
+  #homer4 {
+    visibility: hidden;
+  }
+  #homer5 {
+    visibility: hidden;
+  }
+  #homer6 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+  #homer1 {
+    visibility: hidden;
+  }
+  #homer2 {
+    visibility: hidden;
+  }
+  #homer3 {
+    visibility: visible;
+
+    float: left;
+  }
+  #homer4 {
+    visibility: hidden;
+  }
+  #homer5 {
+    visibility: hidden;
+  }
+  #homer6 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+  #homer1 {
+    visibility: hidden;
+  }
+  #homer2 {
+    visibility: hidden;
+  }
+  #homer3 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer4 {
+    visibility: visible;
+
+    float: left;
+  }
+  #homer5 {
+    visibility: hidden;
+  }
+  #homer6 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+  #homer1 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer2 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer3 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer4 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer5 {
+    visibility: visible;
+
+    float: left;
+  }
+  #homer6 {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  #homer1 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer2 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer3 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer4 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer5 {
+    visibility: hidden;
+    position: fixed;
+  }
+  #homer6 {
+    visibility: visible;
+
+    float: left;
+  }
+}
